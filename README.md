@@ -9,9 +9,9 @@ of Machine Learning Research 16 (2015): 1243-47. Print.
 In oder to use it, you need to download the ENCOG workbench https://github.com/encog/encog-java-core/releases/download/v3.4/encog-workbench-3.4.0-all.jar, the Apache Commons Lang https://commons.apache.org/proper/commons-lang3/download_lang3.cgi, opencvs https://sourceforge.net/projects/opencsv/files/opencsv/ and the Exasol JDBC Driver from https://www.exasol.com/portal/
 
 # Example
-In the example folder a link and a datamodel for a credit card default prediction from 
+In the example folder a link and a datamodel for a credit card default prediction from https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients is provided, togheter with an read and store result SQL-File and the corresponding parameter file.
 
-The next steps are
+# Important steps
 
 - Edit ConnectToDatabase.java to give information about the right database
 driver. In this version an EXASOL database ist used
