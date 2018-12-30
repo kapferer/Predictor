@@ -1,6 +1,6 @@
 ## This is Predictor v0.6
 
-An easy to use tool for applying neuronal-networks on data from databases. The
+An easy to use tool for applying **neuronal-networks on data from databases**. The
 tool prepares, trains, predicts and stores the data in the database. This is
 done with ENCOG (http://www.heatonresearch.com/encog/) Heaton, Jeff. "Encog:
 Library of Interchangeable Machine Learning Models for Java and C#." Journal
@@ -8,8 +8,10 @@ of Machine Learning Research 16 (2015): 1243-47. Print.
 
 In oder to use it, you need to download the ENCOG workbench https://github.com/encog/encog-java-core/releases/download/v3.4/encog-workbench-3.4.0-all.jar, the Apache Commons Lang https://commons.apache.org/proper/commons-lang3/download_lang3.cgi, opencvs https://sourceforge.net/projects/opencsv/files/opencsv/ and the Exasol JDBC Driver from https://www.exasol.com/portal/
 
+# Example
+In the example folder a link and a datamodel for a credit card default prediction from 
 
-THe next steps are
+The next steps are
 
 - Edit ConnectToDatabase.java to give information about the right database
 driver. In this version an EXASOL database ist used
