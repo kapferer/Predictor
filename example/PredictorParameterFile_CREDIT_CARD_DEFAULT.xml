@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<predictor_input_file>
+	<filenameSQL>C:\tmp\credit_card_default.sql</filenameSQL>
+	<resultcolumns>25</resultcolumns>
+	<decimalpoint>,</decimalpoint>
+	<nullValues>?</nullValues>
+	<nullIndicatorColumn>0</nullIndicatorColumn>
+	<categoricalColumns>2,3,4,5,6,7,8,9,10,11,12</categoricalColumns>
+	<primaryKeyColumns>1</primaryKeyColumns>
+	<neuronsInLayer>136</neuronsInLayer>
+	<MaxError>1.0E-5</MaxError>
+	<lineToPredict></lineToPredict>
+	<ratioTestToTrain>50</ratioTestToTrain>
+	<trainOrApplyMode>train</trainOrApplyMode>
+	<trainedNetFile>C:\tmp\credit_card_default.sql.encog</trainedNetFile>	
+	<resultTranslatorFile>C:\tmp\ResultTranslator_credit_card_default.sql.csv</resultTranslatorFile>
+	<maxIteration>1000</maxIteration>
+	<RPROPorLMA>RPROP</RPROPorLMA>
+	<writeIntoDatabase>1</writeIntoDatabase>
+	<onlyPrepareData>0</onlyPrepareData>
+	<writePrepareDataIntoCSV>1</writePrepareDataIntoCSV>
+	<fileNameInsertSql>C:\tmp\insert_credit_card_default.sql</fileNameInsertSql>
+</predictor_input_file>
