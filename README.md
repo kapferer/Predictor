@@ -1,4 +1,4 @@
-This is Predictor v0.6
+## This is Predictor v0.6
 
 An easy to use tool for applying neuronal-networks on data from databases. The
 tool prepares, trains, predicts and stores the data in the database. This is
@@ -6,7 +6,10 @@ done with ENCOG (http://www.heatonresearch.com/encog/) Heaton, Jeff. "Encog:
 Library of Interchangeable Machine Learning Models for Java and C#." Journal
 of Machine Learning Research 16 (2015): 1243-47. Print.
 
-To do so some steps need to be done
+In oder to use it, you need to download the ENCOG workbench https://github.com/encog/encog-java-core/releases/download/v3.4/encog-workbench-3.4.0-all.jar, the Apache Commons Lang https://commons.apache.org/proper/commons-lang3/download_lang3.cgi, opencvs https://sourceforge.net/projects/opencsv/files/opencsv/ and the Exasol JDBC Driver from https://www.exasol.com/portal/
+
+
+THe next steps are
 
 - Edit ConnectToDatabase.java to give information about the right database
 driver. In this version an EXASOL database ist used
@@ -22,13 +25,13 @@ the input-data and training-parameter.
 - Edit InsertIntoDatabase.java for the storage of the results into your
 database, if needed.
 
-\section Start-arguments Start-arguments for Predictor
+# Start-arguments for Predictor
 
 In order to start Predictor 2 arguemnts are needed. First the Predictor
 Parameter XML-File and second the database-information XML-File. * e.g. java
 -jar Predictor.jar PredictorParameterFile.xml DatabaseInformation.xml.
 
-\section parameter-file The XML-Parameterfile for Predictor
+# The XML-Parameterfile for Predictor
 
 A detailed description for the Predictor parameter XML-File.
 
@@ -137,7 +140,7 @@ PREDICTION,1
 - <b></predictor_input_file></b> indicates the end of a Predictor
 parameter-file
 
-\section database-file The Database XML-File for Predictor
+# The Database XML-File for Predictor
 
 In this file basic database-information is stored.
 
@@ -159,7 +162,7 @@ standalone="yes"?></b>
 XML-File
 
 
-\section common-tips Tips and Hints
+#  Tips and Hints
 
 - If you want to have another activation function then Sigmoid (standard in
 Predictor) just edit the Class SetUpNeuronalNet.class. Information about
