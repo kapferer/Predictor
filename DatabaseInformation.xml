@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<database_predictor_input_file>
+	<connectionURL>xxx.xxx.xxx.xxx:xxxx</connectionURL>
+	<user>user</user>
+	<passwd>password</passwd>
+	<schema>DATEN</schema></database_predictor_input_file>
