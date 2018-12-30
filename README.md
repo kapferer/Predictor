@@ -9,7 +9,7 @@ of Machine Learning Research 16 (2015): 1243-47. Print.
 To do so some steps need to be done
 
 - Edit ConnectToDatabase.java to give information about the right database
-driver.
+driver. In this version an EXASOL database ist used
 
 - Edit the DatabaseInformation.xml file to give user, password, database
 connections and schema information.
