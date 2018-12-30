@@ -135,7 +135,7 @@ tells Predictor to write the prepared data into a CSV file [0 - no CSV File,
 tells Predictor the file , in which the result SQL is stored. Such a file needs to
 have information about how many keys and results you want to store per prediction.
 E.G.
-INSERT INTO DATEN.RESULT (ID, PREDICTION) VALUES(?,?,?);
+INSERT INTO DATEN.RESULT (ID,ID2,PREDICTION) VALUES(?,?,?);
 KEY,1,2
 PREDICTION,1 
 
